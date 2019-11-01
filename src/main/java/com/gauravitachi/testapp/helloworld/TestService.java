@@ -14,4 +14,8 @@ public class TestService {
     public ResponseEntity hi(){
         return ResponseEntity.ok("Hi");
     }
+
+    public String test(){
+        return "test";
+    }
 }
